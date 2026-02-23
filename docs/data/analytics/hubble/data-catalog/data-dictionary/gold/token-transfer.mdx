@@ -10,9 +10,9 @@ description: ""
 
 | Property | Configuration |
 | --- | --- |
-| Natural Key(s) | transaction_id, operation_id |
-| Partition Field(s) | closed_at (DAY partition) |
-| Clustered Field(s) | transaction_id, operation_id, ledger_sequence |
+| Natural Key(s) | unique_key |
+| Partition Field(s) | closed_at (MONTH partition) |
+| Clustered Field(s) | N/A |
 | Documentation | [dbt docs](http://www.stellar-dbt-docs.com/#!/model/model.dbt_szwise_sdf_marts.token_transfers) |
 
 ## Column Details
